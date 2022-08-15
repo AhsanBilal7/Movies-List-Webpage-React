@@ -1,0 +1,26 @@
+.popclass{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 10px;
+}
+.morebutton{
+    width: 100%;
+}
+.morebutton button{
+    
+    /* width: 97%; */
+    margin: 5px 10px;
+    padding: 5px 45px;
+    border-radius: 5px;
+  color:white ;
+  background-color: rgb(4, 136, 219);
+  
+  border: none;
+}
+.morebutton button:hover{
+
+    background-color: rgb(6, 118, 188);
+}

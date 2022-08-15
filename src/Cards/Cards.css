@@ -1,0 +1,37 @@
+.Cards{
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+ border: radius 5px; 
+ border: none;
+ animation: fadeIn 2s;
+    gap: 0px;
+    justify-content: center;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.images{
+    height: 40vh;
+    object-fit: cover;
+}
+
+.butt{
+    position: absolute;
+    top:90%;
+    left:30px ;
+    right: 30px;
+    background-color: rgb(4, 136, 219);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    
+    
+}
+.butt:hover{
+    
+    background-color: rgb(6, 118, 188);
+}

@@ -1,0 +1,13 @@
+.mainnavbar {
+    display: flex;
+ margin: 5px 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 7px rgba(7, 76, 166, 0.31);
+border-radius: 5px;
+    gap: 50px;
+}
+.starlogo{
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+}

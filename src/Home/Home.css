@@ -1,0 +1,32 @@
+.butn{
+    position: fixed;
+    z-index: 7;
+    margin: 5px 10px;
+    display: flex;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 7px rgba(7, 76, 166, 0.31);
+    width: 98%;
+    padding: 10px 5px;
+    align-items: center;
+    justify-content: center;
+}
+.butn button{
+    background-color: rgb(90, 177, 254);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 5px;
+    
+}
+.butn button:hover{
+    
+    background-color: rgb(39, 136, 221);
+}
+
+.notactive button{
+    background-color: rgb(250, 66, 66);
+}
+.notactive button:hover{
+    background-color: red;
+}
